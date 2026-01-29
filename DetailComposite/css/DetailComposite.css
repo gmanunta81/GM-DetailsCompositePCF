@@ -1,0 +1,25 @@
+.gm-detailComposite-root {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.gm-detailComposite-loading {
+    margin-bottom: 6px;
+}
+
+.gm-detailComposite-error {
+    margin-bottom: 6px;
+}
+
+.gm-detailComposite-textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.gm-detailComposite-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+    align-items: center;
+}

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="DetailComposite_Display" xml:space="preserve">
+    <value>Detail Composite</value>
+  </data>
+  <data name="DetailComposite_Desc" xml:space="preserve">
+    <value>Builds a composite text value from configured fields.</value>
+  </data>
+
+  <data name="Value_Display" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Value_Desc" xml:space="preserve">
+    <value>Bound target field value.</value>
+  </data>
+
+  <data name="ConfigJson_Display" xml:space="preserve">
+    <value>JSON configuration</value>
+  </data>
+  <data name="ConfigJson_Desc" xml:space="preserve">
+    <value>JSON template used to build the composite string.</value>
+  </data>
+
+  <data name="EntityId_Display" xml:space="preserve">
+    <value>Entity Id</value>
+  </data>
+  <data name="EntityId_Desc" xml:space="preserve">
+    <value>The id (GUID) of the current record.</value>
+  </data>
+
+  <data name="EntityName_Display" xml:space="preserve">
+    <value>Entity Name</value>
+  </data>
+  <data name="EntityName_Desc" xml:space="preserve">
+    <value>The logical name of the current table.</value>
+  </data>
+</root>

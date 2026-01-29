@@ -1,0 +1,60 @@
+<manifest>
+	<control namespace="GM.Controls"
+			 constructor="DetailComposite"
+			 version="1.0.0"
+			 display-name-key="DetailComposite_Display"
+			 description-key="DetailComposite_Desc"
+			 control-type="virtual">
+
+		<!-- Per poterlo usare su Single line / TextArea / Multiple lines -->
+		<type-group name="textTypes">
+			<type>SingleLine.Text</type>
+			<type>SingleLine.TextArea</type>
+			<type>Multiple</type>
+		</type-group>
+
+		<!-- Campo target (bound): qui il PCF scrive il risultato -->
+		<property name="value"
+				  display-name-key="Value_Display"
+				  description-key="Value_Desc"
+				  of-type-group="textTypes"
+				  usage="bound"
+				  required="true" />
+
+		<!-- Config JSON (input) -->
+		<property name="configJson"
+				  display-name-key="ConfigJson_Display"
+				  description-key="ConfigJson_Desc"
+				  of-type="Multiple"
+				  usage="input"
+				  required="true" />
+
+		<!-- Record id & table name (input) - metodo supportato -->
+		<property name="entityId"
+				  display-name-key="EntityId_Display"
+				  description-key="EntityId_Desc"
+				  of-type="SingleLine.Text"
+				  usage="input"
+				  required="true" />
+
+		<property name="entityName"
+				  display-name-key="EntityName_Display"
+				  description-key="EntityName_Desc"
+				  of-type="SingleLine.Text"
+				  usage="input"
+				  required="true" />
+
+		<resources>
+			<code path="index.ts" order="1" />
+			<platform-library name="React" version="16.14.0" />
+			<platform-library name="Fluent" version="9.46.2" />
+			<css path="css/DetailComposite.css" order="1" />
+			<resx path="strings/DetailComposite.1033.resx" version="1.0.0" />
+		</resources>
+
+		<feature-usage>
+			<uses-feature name="WebAPI" required="true" />
+		</feature-usage>
+
+	</control>
+</manifest>
