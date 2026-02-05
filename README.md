@@ -243,8 +243,8 @@ Company: Contoso Ltd | Tel: +1 234 567 890 | Email: info@contoso.com
 
 ## License
 
-MIT License
+GNU 3.0
 
 ## Author
 
-GM Controls
+Gmanunta81 
